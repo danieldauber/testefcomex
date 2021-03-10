@@ -13,6 +13,9 @@ Resumindo: precisa criar uma tela de listagem e uma tela para inserir o processo
 ## Tecnologias
 Você pode usar Javascript, PHP para construir o formulário, e pode usar como base a aplicação CakePHP que está nesse repositório. 
 
+Caso se sinta mais a vontade de usar outra tecnologia, pode ser utilizado. Apenas descreva
+como rodar a sua aplicação.
+
 Ao terminar, faça um pull request nesse repositório com a sua solução.
 
 ## Instalação
@@ -31,28 +34,28 @@ bin/cake server -p 8765
 
 ## Detalhamento
 
-1. A tela de listagem deve contar uma tabela, listando todos os processos cadastrados,
-com o Tipo do Processo, Identificador.
+1. A tela de listagem deve conter uma tabela, listando todos os processos cadastrados,
+com o Tipo do Processo e Identificador.
 
 Deve ter um botão para adicionar um novo processo.
 
 2. Na tela de inserir processo, o formulário deve conter os seguintes campos:
 
 Tipo de Processo: selecionar entre Exportação e Importação
-Identificador do Processo: recebe letras e números
+Identificador do Processo: possibilidade do usuário inserir letras e números.
 
 3.  Caso seja Exportação:
 
-Ao o usuário selecionar Exportação, deve habilitar os seguintes campos:
+Ao selecionar Exportação, deve habilitar os seguintes campos:
 
-- Pais de Destino Final: nome do país
-- Valor Total da Exportação: numérico|dinheiro
+- País de Destino Final: nome do país;
+- Valor Total da Exportação: numérico|dinheiro;
 
 4.  Caso seja Importação:
 
-Ao o usuário selecionar Importação, deve habilitar os seguintes campos:
+Ao selecionar Importação, deve habilitar os seguintes campos:
 
-- Via de Transporte: Marítimo | Aereo | Terrestro
+- Via de Transporte: Marítimo | Aéreo | Terrestre
 - Peso Bruto da Importação: campo float com 5 casas decimais
 
 Salvar os dados no banco de dados.
