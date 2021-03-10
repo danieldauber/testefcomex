@@ -41,14 +41,18 @@ Deve ter um botão para adicionar um novo processo.
 Tipo de Processo: selecionar entre Exportação e Importação
 Identificador do Processo: recebe letras e números
 
-2.1 Caso seja Exportação:
+3.  Caso seja Exportação:
 
 Ao o usuário selecionar Exportação, deve habilitar os seguintes campos:
 
 - Pais de Destino Final: nome do país
 - Valor Total da Exportação: numérico|dinheiro
 
+4.  Caso seja Importação:
+
 Ao o usuário selecionar Importação, deve habilitar os seguintes campos:
 
 - Via de Transporte: Marítimo | Aereo | Terrestro
 - Peso Bruto da Importação: campo float com 5 casas decimais
+
+Salvar os dados no banco de dados.
