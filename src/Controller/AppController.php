@@ -48,7 +48,7 @@ class AppController extends Controller
 
         // Allow the display action so our pages controller
         // continues to work.
-        $this->Auth->allow(['display']);
+        //$this->Auth->allow(['display']);
 
         /*
          * Enable the following component for recommended CakePHP form protection settings.
